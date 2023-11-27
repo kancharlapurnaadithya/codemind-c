@@ -3,5 +3,6 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    printf("%.2d",a%100);
+    int b=a%100;
+    printf("%.2d",b);
 }
