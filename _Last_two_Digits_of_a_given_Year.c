@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int a,b;
     scanf("%d",&a);
-    int b=a%100;
+    b=a%100;
     printf("%.2d",b);
 }
