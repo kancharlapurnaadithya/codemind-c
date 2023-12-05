@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,c;
     scanf("%d%d",&a,&b);
-    int s=b/a;
-    printf("%d",s);
+    c=b/a;
+    printf("%d",c);
+    
 }
