@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int x,y;
-    scanf("%d%d",&x,&y);
-    float ra=1.0/x;
-    float rb=1.0/y;
-    float cb=ra+rb;
-    float tt=1.0/cb;
-    printf("%.0f",tt);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    float c=1.0/a;
+    float d=1.0/b;
+    float f=c+d;
+    float g=1.0/f;
+    printf("%.0f",g);
+    
 }
